@@ -1,33 +1,33 @@
 === McDonald's Order Management System Demo ===
 
-[11:23:36] System initialized with 0 bots
-[11:23:36] Bot #1 created - Status: ACTIVE
-[11:23:36] Bot #1 is now IDLE - No pending orders
-[11:23:37] Created Order(NORMAL) #1001 - Status: PENDING
-[11:23:37] Bot #1 started processing Order(NORMAL) #1001 - Status: PROCESSING
-[11:23:37] Created Order(VIP) #1002 - Status: PENDING
-[11:23:37] Created Order(NORMAL) #1003 - Status: PENDING
-[11:23:38] Bot #2 created - Status: ACTIVE
-[11:23:38] Bot #2 started processing Order(VIP) #1002 - Status: PROCESSING
-[11:23:38] Bot #3 created - Status: ACTIVE
-[11:23:38] Bot #3 started processing Order(NORMAL) #1003 - Status: PROCESSING
-[11:23:39] Created Order(NORMAL) #1004 - Status: PENDING
-[11:23:39] Created Order(VIP) #1005 - Status: PENDING
-[11:23:39] Created Order(VIP) #1006 - Status: PENDING
-[11:23:40] Bot #3 stopped processing Order(NORMAL) #1003 - Status: PROCESSING
-[11:23:40] Bot #3 destroyed
-[11:23:47] Bot #1 completed Order(NORMAL) #1001 - Status: COMPLETE
-[11:23:47] Bot #1 started processing Order(VIP) #1005 - Status: PROCESSING
-[11:23:48] Bot #2 completed Order(VIP) #1002 - Status: COMPLETE
-[11:23:48] Bot #2 started processing Order(VIP) #1006 - Status: PROCESSING
-[11:23:57] Bot #1 completed Order(VIP) #1005 - Status: COMPLETE
-[11:23:57] Bot #1 started processing Order(NORMAL) #1004 - Status: PROCESSING
-[11:23:58] Bot #2 completed Order(VIP) #1006 - Status: COMPLETE
-[11:23:58] Bot #2 started processing Order(NORMAL) #1003 - Status: PROCESSING
-[11:24:07] Bot #1 completed Order(NORMAL) #1004 - Status: COMPLETE
-[11:24:07] Bot #1 is now IDLE - No pending orders
-[11:24:08] Bot #2 completed Order(NORMAL) #1003 - Status: COMPLETE
-[11:24:08] Bot #2 is now IDLE - No pending orders
+[20:14:15] System initialized with 0 bots
+[20:14:15] Bot #1 created - Status: ACTIVE
+[20:14:15] Bot #1 is now IDLE - No pending orders
+[20:14:16] Created Order(NORMAL) #1001 - Status: PENDING
+[20:14:16] Bot #1 started processing Order(NORMAL) #1001 - Status: PROCESSING
+[20:14:16] Created Order(VIP) #1002 - Status: PENDING
+[20:14:16] Created Order(NORMAL) #1003 - Status: PENDING
+[20:14:17] Bot #2 created - Status: ACTIVE
+[20:14:17] Bot #2 started processing Order(VIP) #1002 - Status: PROCESSING
+[20:14:17] Bot #3 created - Status: ACTIVE
+[20:14:17] Bot #3 started processing Order(NORMAL) #1003 - Status: PROCESSING
+[20:14:18] Created Order(NORMAL) #1004 - Status: PENDING
+[20:14:18] Created Order(VIP) #1005 - Status: PENDING
+[20:14:18] Created Order(VIP) #1006 - Status: PENDING
+[20:14:19] Bot #3 stopped processing Order(NORMAL) #1003 - Status: PROCESSING
+[20:14:19] Bot #3 destroyed
+[20:14:26] Bot #1 completed Order(NORMAL) #1001 - Status: COMPLETE
+[20:14:26] Bot #1 started processing Order(VIP) #1005 - Status: PROCESSING
+[20:14:27] Bot #2 completed Order(VIP) #1002 - Status: COMPLETE
+[20:14:27] Bot #2 started processing Order(VIP) #1006 - Status: PROCESSING
+[20:14:36] Bot #1 completed Order(VIP) #1005 - Status: COMPLETE
+[20:14:36] Bot #1 started processing Order(NORMAL) #1004 - Status: PROCESSING
+[20:14:37] Bot #2 completed Order(VIP) #1006 - Status: COMPLETE
+[20:14:37] Bot #2 started processing Order(NORMAL) #1003 - Status: PROCESSING
+[20:14:46] Bot #1 completed Order(NORMAL) #1004 - Status: COMPLETE
+[20:14:46] Bot #1 is now IDLE - No pending orders
+[20:14:47] Bot #2 completed Order(NORMAL) #1003 - Status: COMPLETE
+[20:14:47] Bot #2 is now IDLE - No pending orders
 
 Final Status:
 - Total Orders Processed: 6 (3 VIP, 3 Normal)

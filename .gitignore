@@ -8,4 +8,5 @@ dist
 # Others
 .DS_Store
 demo/
+output.log
 

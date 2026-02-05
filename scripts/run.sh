@@ -6,6 +6,6 @@
 echo "Running CLI application..."
 
 # Run with ts-node (no build required)
-npx ts-node src/index.ts > scripts/result.txt
+npx ts-node src/demo.ts > scripts/result.txt
 
 echo "CLI application execution completed"

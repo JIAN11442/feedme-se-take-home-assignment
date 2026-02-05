@@ -9,7 +9,8 @@
 
 ```
 src/
-├── index.ts              # CLI entry point (demo)
+├── cli.ts                # Interactive CLI
+├── demo.ts               # Automated demo script
 ├── types.ts              # Enums: OrderType, OrderStatus, OrderPriority
 ├── models/
 │   ├── order.ts          # Order class (status, priority)
@@ -31,14 +32,34 @@ npm install
 # Run tests
 npm test
 
-# Run demo
-npm start
+# Run interactive CLI
+npm run cli
+
+# Run automated demo
+npm run demo
 
 # Or use scripts (for GitHub Actions)
 bash scripts/build.sh
 bash scripts/test.sh
 bash scripts/run.sh   # Output to scripts/result.txt
 ```
+
+## Interactive CLI
+
+The CLI provides a menu-driven interface for real-time control:
+
+```
+=== McDonald's Order Management System ===
+1 - Create Normal Order
+2 - Create VIP Order
+3 - Add Bot
+4 - Remove Bot
+5 - Show Status
+0 - Exit
+```
+
+- Logs are written to `output.log` (use `tail -f output.log` in another terminal to monitor)
+- Enter `m` to show menu again
 
 ## Design Decisions
 
